@@ -13,6 +13,12 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+Route::get('/demo', function () {
+    return view('demo.index');
+})->name('demo');
+
+Route::post('/demo', [\App\Http\Controllers\DemoController::class, 'store'])->name('demo');
+
 Route::get('/contact', function () {
     return view('petition.index');
 })->name('contact');

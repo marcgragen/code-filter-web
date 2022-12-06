@@ -5,15 +5,14 @@ namespace App\Http\Controllers;
 use App\Models\Filter;
 use Illuminate\Http\Request;
 
-class FiltersController extends Controller
+class DemoController extends Controller
 {
     public function store(Request $request)
     {
         $request->validate([
-            'email' => 'required|min:3',
-            'filter' => 'required'
+            'data' => 'required|min:3'
         ]);
-        $selectedFilter = new Filter();
+        //$selectedFilter = new Filter();
         //$selectedFilter.getFilterById();
         //Send requested filter to email.
 

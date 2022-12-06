@@ -42,6 +42,9 @@
                     <li class="nav-item">
                         <a class="nav-link" href="{{ route('contact') }}">Contacto</a>
                     </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="{{ route('demo') }}">Demo</a>
+                    </li>
                 </ul>
             </div>
         </div>
