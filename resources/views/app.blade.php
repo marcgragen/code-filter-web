@@ -71,7 +71,6 @@
             </div>
             <div class="col-sm-12">@include('partials.footer')</div>
         </div>
-    @yield('content')
     </div>
 </body>
 </html>
